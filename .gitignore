@@ -1,0 +1,60 @@
+# Root .gitignore for portfolio project
+
+# Node modules
+node_modules/
+
+# Build directories
+/dist/
+/out/
+/.next/
+/build/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backend specific
+backend/node_modules/
+backend/dist/
+backend/.env
+
+# Frontend specific
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env.local
+
+# PDF files (CV, resume)
+/public/cv.pdf
+/public/resume.pdf
+/public/resume.txt
+
+# HTML files (if not part of source)
+/public/fashion-portfolio.html
+/public/resume.html
+
+# SVG files (if generated)
+/public/*.svg
+
+# Other
+*.log
+*.tmp
